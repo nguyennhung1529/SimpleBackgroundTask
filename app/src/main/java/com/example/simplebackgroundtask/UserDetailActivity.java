@@ -9,11 +9,8 @@ import android.widget.TextView;
 import org.json.JSONException;
 import org.json.JSONObject;
 
-import java.util.ArrayList;
-
 public class UserDetailActivity extends AppCompatActivity {
     private TextView mUser;
-    private JSONObject jObject = null;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
