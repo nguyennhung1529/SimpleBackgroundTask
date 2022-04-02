@@ -14,22 +14,22 @@
             android:layout_height="wrap_content"
             android:gravity="center_horizontal"
             android:orientation="vertical">
-            <TextView
-                android:id="@+id/textView1"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="32dp"
-                android:layout_marginBottom="24dp"
-                android:text="@string/ready_to_start"
-                android:textSize="24sp" />
+<!--            <TextView-->
+<!--                android:id="@+id/textView1"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginTop="32dp"-->
+<!--                android:layout_marginBottom="24dp"-->
+<!--                android:text="@string/ready_to_start"-->
+<!--                android:textSize="24sp" />-->
 
-            <Button
-                android:id="@+id/button"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="32dp"
-                android:onClick="startTask"
-                android:text="@string/start_task" />
+<!--            <Button-->
+<!--                android:id="@+id/button"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginTop="32dp"-->
+<!--                android:onClick="startTask"-->
+<!--                android:text="@string/start_task" />-->
 
             <ProgressBar
                 android:id="@+id/progressBar"
@@ -39,16 +39,22 @@
                 android:layout_marginTop="32dp"
                 android:visibility="invisible" />
 
-            <ProgressBar
-                android:id="@+id/progressBar2"
-                style="?android:attr/progressBarStyleHorizontal"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="64dp"
-                android:layout_marginTop="100dp"
-                android:layout_marginEnd="64dp"
-                android:visibility="invisible"
-                android:progress="20" />
+<!--            <ProgressBar-->
+<!--                android:id="@+id/progressBar2"-->
+<!--                style="?android:attr/progressBarStyleHorizontal"-->
+<!--                android:layout_width="0dp"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginStart="64dp"-->
+<!--                android:layout_marginTop="100dp"-->
+<!--                android:layout_marginEnd="64dp"-->
+<!--                android:visibility="invisible"-->
+<!--                android:progress="20" />-->
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recyclerview"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+            </androidx.recyclerview.widget.RecyclerView>
         </LinearLayout>
     </ScrollView>
 </androidx.constraintlayout.widget.ConstraintLayout>
