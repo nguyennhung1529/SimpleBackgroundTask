@@ -12,6 +12,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.SimpleBackgroundTask">
         <activity
+            android:name=".AddUserActivity"
+            android:exported="false" />
+        <activity
+            android:name=".UpdateUserDetailActivity"
+            android:exported="false" />
+        <activity
             android:name=".UserDetailActivity"
             android:exported="false" />
         <activity
